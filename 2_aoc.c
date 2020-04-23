@@ -4,6 +4,11 @@
 float start_point , end_point, total_area;
 int numtraps;
 
+void input(void);
+float find_area(float, float, int);
+float trap_area(float, float, float);
+float fuction_x(float);
+
 void main()
 {
 	void input(void);
